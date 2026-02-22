@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/tests/">
+    <Project Path="Calculator.Application.Tests/Calculator.Application.Tests.csproj" />
+  </Folder>
+  <Project Path="Calculator.Api/Calculator.Api.csproj" />
+  <Project Path="Calculator.Application/Calculator.Application.csproj" />
+  <Project Path="Calculator.Infrastructure/Calculator.Infrastructure.csproj" />
+</Solution>
