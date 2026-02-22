@@ -361,3 +361,13 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# SQLite database
+logging.db
+*.db
+
+# Rider / JetBrains
+.idea/
+
+# VS Code
+.vscode/
