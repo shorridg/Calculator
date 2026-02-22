@@ -7,18 +7,20 @@ A small .NET 8 Web API that performs basic arithmetic operations (add, subtract,
 dotnet run --project Calculator.Api
 ```
 
-The API will start on https://localhost:<port> and expose Swagger at:
+The API will start on `https://localhost:<port>` and expose Swagger at:
+```
 /swagger
-
+```
 
 ### Authentication
 All endpoints require an API key sent via header:
+```
 X-Api-Key: <your-key>
+```
 
-
-The key is configured in appsettings.json.
+The key is configured in `appsettings.json`.
 ### Endpoints
-All endpoints are under the Calculation controller:
+All endpoints are under the `Calculation` controller:
 - POST /calculation/add
 - POST /calculation/subtract
 - POST /calculation/multiply
@@ -33,13 +35,14 @@ Each accepts a JSON body:
 
 ### Postman Collection
 A Postman collection is included in the repository:
+```
 /postman/Calculator.postman_collection.json
-
+```
 
 It contains all endpoints and the required API‑key header.
 ### Tests
 Unit tests are located in:
-Calculator.Tests
+`Calculator.Tests`
 
 
 They cover the calculator service logic.
